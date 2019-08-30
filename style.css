@@ -15,6 +15,14 @@
   border: double 0.5rem gray;
 }
 
+.phone, .mail {
+  border: 1px solid #E5C0ED;
+  background-color: #FFE2D4;
+  color: black;
+  box-shadow: 1px 1px 1px 1px #FFE2D4;
+  text-decoration: none;
+}
+
 html, body {
   font-family: "Montserrat", sans-serif;
   margin: 0rem;
@@ -57,17 +65,24 @@ header a {
 
 main {
   grid-area: main;
+  border: 0.5rem solid #FFE2D4;
+  border-radius: 2rem;
+  padding: 2rem;
 }
 
 article {
   grid-area: article;
   border-radius: 3rem;
   background-color: #FFE2D4;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
 }
 
 div {
   grid-area: div;
+}
+
+.div_right {
+  align-self: flex-end;
 }
 
 section {
@@ -78,6 +93,8 @@ section {
 
 footer {
   grid-area: footer;
+  display: flex;
+  justify-content: space-between;
 }
 
 .accueil {
