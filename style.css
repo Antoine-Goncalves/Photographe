@@ -46,7 +46,7 @@ header li {
 header a {
   display: inline-block;
   text-decoration: none;
-  color: black;
+  color: #E5C0ED;
   text-transform: uppercase;
   font-size: 1.3rem;
 }
