@@ -14,3 +14,11 @@
 	height: 20rem;
 	border: double .5rem gray;
 }
+
+.phone,.mail {
+	border: 1px solid $color-border;
+   	background-color: $color-main;
+        color: black;
+        box-shadow: 1px 1px 1px 1px $color-main;
+	text-decoration: none;
+}
