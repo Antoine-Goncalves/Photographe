@@ -1,0 +1,28 @@
+header {
+	grid-area: header;
+	border: 2px solid $color-background;
+	background-color: $color-background;
+	li {
+        	list-style-type : none;
+	}
+	
+	a {
+		display: inline-block;
+		text-decoration: none;
+		color: black;
+		text-transform: uppercase;
+		font-size: 1.3rem;
+	}
+}
+
+.menu {
+    display: flex; 
+    flex-direction : row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu_li:hover {
+        border-top: 5px solid $color-border;
+        background-color: $color-background;
+}
