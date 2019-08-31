@@ -12,14 +12,14 @@ body {
 }
 
 .camera {
-  width: 18.7rem;
-  height: 18.7rem;
+  width: 25rem;
+  height: 25rem;
   border: double 0.5rem gray;
 }
 
 .parent-enfant {
-  width: 18.7rem;
-  height: 18.7rem;
+  width: 25rem;
+  height: 25rem;
   border: double 0.5rem gray;
 }
 
@@ -47,6 +47,10 @@ body {
 
 .picture:hover {
   opacity: 0.5;
+}
+
+body {
+  font-family: "ZCOOL XiaoWei", serif;
 }
 
 html, body {
@@ -138,6 +142,11 @@ footer {
   display: flex;
   flex-direction: column;
   justify-self: flex-end;
+}
+
+.presentation {
+  display: flex;
+  justify-content: center;
 }
 
 .main-galerie {
