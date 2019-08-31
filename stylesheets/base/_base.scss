@@ -15,14 +15,14 @@ body {
 }
 
 .camera {
-	width: 20rem;
-	height: 20rem;
+	width: $size-picture;
+	height: $size-picture;
 	border: double .5rem gray;
 }
 
 .parent-enfant {
-	width: 20rem;
-	height: 20rem;
+	width: $size-picture;
+	height: $size-picture;
 	border: double .5rem gray;
 }
 
@@ -32,4 +32,22 @@ body {
         color: black;
         box-shadow: 1px 1px 1px 1px $color-main;
 	text-decoration: none;
+}
+
+.picture {
+	width: $size-picture;
+	height: $size-picture;
+}
+
+.picture-prest {
+	width: 15rem;
+	height: 15rem;
+}
+
+.picture-prest:hover {
+	opacity: .5;
+}
+
+.picture:hover {
+	opacity: .5;
 }
