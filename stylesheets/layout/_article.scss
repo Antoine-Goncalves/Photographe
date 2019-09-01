@@ -1,6 +1,6 @@
 article {
 	grid-area: article;
-	border-radius: 3rem;
+	@include border-radius(3rem);
         @include background-color($color-main);
 	@include font-size($font-size);
 }
