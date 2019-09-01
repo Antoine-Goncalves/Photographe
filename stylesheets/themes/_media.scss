@@ -109,6 +109,8 @@
 		width: 110%;
 	}
 
+	/* contact */
+
 	.romy {
 		display: none;
 	}
@@ -117,9 +119,13 @@
 		width: 110%;
 	}
 
+	.article-contact {
+		width: 180%;
+	}
+
 }
 
-@include media(768px) {
+@media screen and (min-width: 500px) and (max-width: 1100px) {
 
 	/* Initiale */
 
