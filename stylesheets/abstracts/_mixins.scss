@@ -13,3 +13,7 @@
 @mixin border($val3) {
 	border: $val3;
 }
+
+@mixin background-color($val4) {
+	background-color: $val4;
+}
