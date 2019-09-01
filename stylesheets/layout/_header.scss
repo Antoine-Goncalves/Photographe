@@ -1,6 +1,6 @@
 header {
 	grid-area: header;
-	border: 2px solid $color-background;
+	@include border(2px solid $color-background);
 	background-color: $color-background;
 	li {
         	list-style-type : none;
