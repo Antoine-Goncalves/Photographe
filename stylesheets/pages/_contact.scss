@@ -17,21 +17,21 @@
 
 input[type=text], select, textarea {
 	width: 100%;
-	padding: 12px;
+	padding: .75rem;
   	@include border(1px solid $color-border);
-  	@include border-radius(4px);
+  	@include border-radius(.25rem);
   	box-sizing: border-box;
-  	margin-top: 6px;
-  	margin-bottom: 16px;
+  	margin-top: .375rem;
+  	margin-bottom: 1rem;
   	resize: vertical;
 }
 
 input[type=submit] {
 	@include background-color(pink);
   	color: white;
-  	padding: 12px 20px;
+  	padding: .75rem 1.25rem;
   	border: none;
-  	@include border-radius(4px);
+  	@include border-radius(.25rem);
   	cursor: pointer;
 }
 
@@ -41,5 +41,5 @@ input[type=submit]:hover {
 
 .container {
   	@include border-radius(5px);
-  	padding: 20px;
+  	padding: 1.25rem;
 }
