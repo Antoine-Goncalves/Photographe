@@ -1,7 +1,7 @@
 html,body {
 	margin: 0rem;
 	padding: 0rem;
-	background-color: $color-background;
+	@include background-color($color-background);
 }
 
 ul {
