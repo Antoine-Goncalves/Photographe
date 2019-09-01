@@ -1,23 +1,41 @@
 @mixin opacity($value) {
+
 	opacity: $value;
+
 }
 
 @mixin width($val) {
+
 	width: $val;
+
 }
 
 @mixin height($val2) {
+
 	height: $val2;
+
 }
 
 @mixin border($val3) {
+
 	border: $val3;
+
 }
 
 @mixin background-color($val4) {
+
 	background-color: $val4;
+
 }
 
 @mixin font-size($val5) {
+	
 	font-size: $val5;
+
+}
+
+@mixin border-radius($val6) {
+
+	border-radius: $val6;
+
 }
