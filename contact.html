@@ -65,19 +65,45 @@
 
 		<article class="article-contact">
 
-			<div>
+			<div class="container">
 
-				<form></form>
+				<form>
+					<label for="fname">Prénom</label>
+    					<input type="text" id="fname" name="firstname" placeholder="Votre prénom..">
+
+    					<label for="lname">Nom</label>
+    					<input type="text" id="lname" name="lastname" placeholder="Votre nom..">
+
+					<label for="mail">E-Mail</label>
+					<input type="text" id="mail" name="e-mail" placeholder="Votre mail..">
+
+    					<label for="prestation">Prestations</label>
+    					<select id="prestation" name="prestation">
+						<option value="nouveau-né">Nouveau-né</option>
+      						<option value="canada">Bébé</option>
+      						<option value="usa">Future Maman</option>
+    					</select>
+
+    					<label for="subject">Sujet</label>
+    					<textarea id="subject" name="subject" placeholder="Votre sujet.." style="height:200px"></textarea>
+
+    					<input type="submit" value="Submit">
+
+				</form>
 
 			</div>
 
 		</article>
 
-		<figure class="article-contact">
+		<div class="div-contact">
 
-			<img class="" src="" alt=""/>
+			<figure class="article-contact">
 
-		</figure>
+				<img class="romy" src="Photos/romy.jpg" alt="Photo Romy"/>
+
+			</figure>
+
+		</div>
 
 	</main>
 	
