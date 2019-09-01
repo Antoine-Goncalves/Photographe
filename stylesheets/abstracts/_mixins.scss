@@ -1,0 +1,15 @@
+@mixin opacity($value) {
+	opacity: $value;
+}
+
+@mixin width($val) {
+	width: $val;
+}
+
+@mixin height($val2) {
+	height: $val2;
+}
+
+@mixin border($val3) {
+	border: $val3;
+}
