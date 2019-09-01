@@ -10,24 +10,24 @@ body {
 }
 
 .logo {
-	width: 8rem;
-	height: 8rem;
+	@include width(8rem);
+	@include height(8rem);
 }
 
 .camera {
-	width: 25rem;
-	height: 25rem;
-	border: double .5rem gray;
+	@include width(25rem);
+	@include height(25rem);
+	@include border(double .5rem gray);
 }
 
 .parent-enfant {
-	width: 25rem;
-	height: 25rem;
-	border: double .5rem gray;
+	@include width(25rem);
+	@include height(25rem);
+	@include border(double .5rem gray);
 }
 
 .phone,.mail {
-	border: 1px solid $color-border;
+	@include border(1px solid $color-border);
    	background-color: $color-main;
         color: black;
         box-shadow: 1px 1px 1px 1px $color-main;
@@ -35,19 +35,20 @@ body {
 }
 
 .picture {
-	width: $size-picture;
-	height: $size-picture;
+	@include width($size-picture);
+	@include height($size-picture);
 }
 
 .picture-prest {
-	width: 15rem;
-	height: 15rem;
+	@include width(15rem);
+	@include height(15rem);
 }
 
-.picture-prest:hover {
-	opacity: .5;
+.romy {
+	@include width(25rem);
+	@include height(35rem);
 }
 
-.picture:hover {
-	opacity: .5;
+.picture-prest:hover,.picture:hover,.romy:hover {
+	@include opacity(.5);
 }
