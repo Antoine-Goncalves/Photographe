@@ -1,0 +1,45 @@
+.main-contact {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-auto-rows: minmax(1fr, auto);
+	grid-gap: 3rem;	
+}
+
+.article-contact {
+
+	grid-area: 1 / 1 / 5 / 4;
+
+}
+
+.div-contact {
+	grid-area: 1 / 4 / 5 / 6;
+}
+
+input[type=text], select, textarea {
+	width: 100%;
+	padding: 12px;
+  	@include border(1px solid $color-border);
+  	border-radius: 4px;
+  	box-sizing: border-box;
+  	margin-top: 6px;
+  	margin-bottom: 16px;
+  	resize: vertical;
+}
+
+input[type=submit] {
+	background-color: pink;
+  	color: white;
+  	padding: 12px 20px;
+  	border: none;
+  	border-radius: 4px;
+  	cursor: pointer;
+}
+
+input[type=submit]:hover {
+  	background-color: $color-background;
+}
+
+.container {
+  	border-radius: 5px;
+  	padding: 20px;
+}
