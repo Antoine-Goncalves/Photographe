@@ -28,7 +28,7 @@ body {
 
 .phone,.mail {
 	@include border(1px solid $color-border);
-   	background-color: $color-main;
+   	@include background-color($color-main);
         color: black;
         box-shadow: 1px 1px 1px 1px $color-main;
 	text-decoration: none;
