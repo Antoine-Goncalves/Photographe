@@ -11,7 +11,7 @@ header {
 		text-decoration: none;
 		color: $color-border;
 		text-transform: uppercase;
-		font-size: 1.3rem;
+		@include font-size(1.3rem);
 	}
 }
 
