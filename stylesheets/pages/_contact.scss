@@ -27,7 +27,7 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-	background-color: pink;
+	@include background-color(pink);
   	color: white;
   	padding: 12px 20px;
   	border: none;
@@ -36,7 +36,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  	background-color: $color-background;
+  	@include background-color($color-background);
 }
 
 .container {
