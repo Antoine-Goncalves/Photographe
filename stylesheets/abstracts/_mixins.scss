@@ -17,3 +17,7 @@
 @mixin background-color($val4) {
 	background-color: $val4;
 }
+
+@mixin font-size($val5) {
+	font-size: $val5;
+}
