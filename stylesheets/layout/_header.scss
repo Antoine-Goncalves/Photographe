@@ -1,7 +1,7 @@
 header {
 	grid-area: header;
 	@include border(2px solid $color-background);
-	background-color: $color-background;
+	@include background-color($color-background);
 	li {
         	list-style-type : none;
 	}
@@ -24,5 +24,5 @@ header {
 
 .menu_li:hover {
         border-top: 5px solid $color-border;
-        background-color: $color-background;
+        @include background-color($color-background);
 }
