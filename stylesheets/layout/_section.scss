@@ -2,5 +2,5 @@ section {
 	grid-area: section;
 	border-radius: 3rem;
         @include background-color($color-main);
-	font-size: $font-size;
+	@include font-size($font-size);
 }
