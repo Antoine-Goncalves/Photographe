@@ -1,1 +1,1 @@
-# Site statique Photographe bébé formation
+# Site statique Photographe bébé
